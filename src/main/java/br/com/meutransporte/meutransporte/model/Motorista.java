@@ -23,8 +23,9 @@ public class Motorista {
 	@Id
 	@GeneratedValue
 	private Long id;
-	private String nome;
-	private String posicao;
+    private String nome;
+    private String endereco;
+    private String telefone;
 	
 }
 
